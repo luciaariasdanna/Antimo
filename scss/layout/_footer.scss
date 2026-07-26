@@ -1,0 +1,55 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixin" as *;
+@use "../utilities/extend" as *;
+
+.footer-antimo {
+    position: relative;
+    width: 100%;
+    background-color: $color-fondo;
+    padding: 3rem 1.5rem 2rem 1.5rem;
+    min-height: 120px;
+
+    .footer-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        @include tablet-up {
+            justify-content: flex-start;
+        }
+
+        .footer-copy {
+            font-size: 0.85rem;
+            color: rgba(255, 255, 255, 0.4);
+            text-align: center;
+        }
+    }
+
+    .footer-logo-corner {
+        position: absolute;
+        bottom: 1rem;
+        right: 1.5rem;
+        display: flex;
+        align-items: center;
+
+        .footer-logo {
+            width: 110px; 
+            height: auto;
+            opacity: 0.9;
+            transition: opacity 0.3s ease, transform 0.3s ease;
+
+            &:hover {
+                opacity: 1;
+                transform: scale(1.02);
+            }
+
+            @include tablet-up {
+                width: 130px;
+                right: 2rem;
+                bottom: 1.5rem;
+            }
+        }
+    }
+}

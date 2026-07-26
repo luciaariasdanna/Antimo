@@ -1,0 +1,10 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixin" as *;
+@use "../base/animaciones" as *;
+
+%header-foot{
+    display: flex;
+    background-color: $color-fondo;
+    background-position: center;
+}
+

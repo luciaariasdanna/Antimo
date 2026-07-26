@@ -1,0 +1,21 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixin" as *;
+
+.header-inicio {
+    position: relative;
+    height: 80px;
+    @include tablet-up {
+        height: 100px;
+    }
+    .logo-animado{
+        position: fixed;
+        width: 120px;
+        z-index: 1000;
+        animation: moverLogoMobile 1.5s ease-in-out forwards;
+
+        @include tablet-up {
+            width: 150px;
+            animation: moverLogoDesktop 1.5s ease-in-out forwards;
+        }
+    }
+}

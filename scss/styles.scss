@@ -1,0 +1,11 @@
+//utilities
+@use "utilities/variables";
+@use "utilities/mixin";
+//base
+@use "base/reseteo";
+@use "base/fuentes";
+@use "base/animaciones";
+//layout
+@use "layout/header";
+@use "layout/main";
+@use "layout/footer";

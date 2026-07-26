@@ -1,0 +1,14 @@
+@use "../utilities/variables" as *;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body{
+    font-family: $fte-fina;
+}
+img {
+    max-width: 100%;
+}
