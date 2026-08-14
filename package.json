@@ -4,10 +4,11 @@
   "description": "",
   "license": "ISC",
   "author": "",
-  "type": "commonjs",
-  "main": "index.js",
   "scripts": {
-  "scss": "sass scss/main.scss css/style.css",
-  "scss:watch": "sass --watch scss/main.scss:css/style.css"
-}
+    "scss": "sass scss/styles.scss css/styles.css",
+    "scss:watch": "sass --watch scss/styles.scss:css/styles.css"
+  },
+  "devDependencies": {
+    "sass": "^1.101.0"
+  }
 }

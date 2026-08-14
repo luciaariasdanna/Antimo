@@ -196,4 +196,19 @@ body {
   }
 }
 
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.25rem 1rem;
+}
+.site-nav a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+.site-nav a:hover, .site-nav a[aria-current=page] {
+  color: #ff0000;
+}
+
 /*# sourceMappingURL=styles.css.map */

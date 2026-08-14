@@ -5,6 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Tus mejores noches se viven acá. Riquísimos tragos y comida con el mejor ambiente de La Rioja. Comprobalo vos mismo. Antimo - más que un bar.">
     <meta name="google-site-verification" content="XDDOTwlOIvwL7qX2Lo5htoiGzSRGQqchxytD7HUILQw" />
+    <link rel="canonical" href="https://antimo.vercel.app/">
+    <!--Open Graph / Twitter Card-->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Antimo Bar">
+    <meta property="og:locale" content="es_AR">
+    <meta property="og:title" content="Antimo Bar | Más que un bar en Dorrego 164">
+    <meta property="og:description" content="Tus mejores noches se viven acá. Riquísimos tragos y el mejor ambiente de La Rioja. Comprobalo vos mismo.">
+    <meta property="og:url" content="https://antimo.vercel.app/">
+    <meta property="og:image" content="https://antimo.vercel.app/img/tigre.webp">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Antimo Bar | Más que un bar en Dorrego 164">
+    <meta name="twitter:description" content="Tus mejores noches se viven acá. Riquísimos tragos y el mejor ambiente de La Rioja.">
+    <meta name="twitter:image" content="https://antimo.vercel.app/img/tigre.webp">
+    <!--Favicon-->
+    <link rel="icon" type="image/webp" href="img/LogoAntimo.webp">
     <!--Tipografias-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,40 +29,66 @@
     <!--Css-->
     <link rel="stylesheet" href="css/styles.css">
     <!--Título-->
-    <title>Antimo Bar| Más que un bar en Dorrego 164</title>
+    <title>Antimo Bar | Más que un bar en Dorrego 164</title>
+    <!--Datos estructurados-->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BarOrPub",
+      "name": "Antimo Bar",
+      "image": "https://antimo.vercel.app/img/LogoAntimo.webp",
+      "url": "https://antimo.vercel.app/",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Dorrego 164",
+        "addressLocality": "La Rioja",
+        "addressRegion": "La Rioja",
+        "addressCountry": "AR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -29.4146153,
+        "longitude": -66.848928
+      },
+      "sameAs": [
+        "https://www.instagram.com/antimo.bar/"
+      ],
+      "menu": "https://drive.google.com/file/d/1S9V4m8zjUxQ6yirafkwSrkhAnjJ4nEo6/view"
+    }
+    </script>
 </head>
 <body class="bg-black text-white">
     <header class="header-inicio" role="banner">
         <h1 class="visually-hidden">Antimo Bar</h1>
-        <img src="img/LogoAntimo.webp" alt="Logo animado de Antimo Bar" class="logo-animado">
+        <img src="img/LogoAntimo.webp" alt="Logo animado de Antimo Bar" class="logo-animado" width="210" height="97">
     </header>
     <main class="container main-inicio mt-5 pt-5" role="main" aria-label="Menú principal de navegación">
         <div class="row g-4 mt-5">
             <!--Articulo 1: contacto-->
             <article class="col-12 col-md-6 text-center antimo-card">
-                <a href="Pages/contacto.html" class="text-decoration-none text-white" aria-label="Ir a la página de nuestro Instagram">
-                    <img src="img/notmickey.webp" loading="lazy" decoding="async" alt="Primer plano parcial de una figura de colección de KAWS Companion gris y blanco con ojos de cruz, visto desde abajo en una barra de bar, enmarcado por un efecto de túnel de luz y reflejos de prisma. Decoración interior de Antimo Bar, La Rioja." class="img-fluid mb-2">
+                <a href="pages/contacto.html" class="text-decoration-none text-white" aria-label="Ir a la página de nuestro Instagram">
+                    <img src="img/notmickey.webp" loading="lazy" decoding="async" alt="Primer plano parcial de una figura de colección de KAWS Companion gris y blanco con ojos de cruz, visto desde abajo en una barra de bar, enmarcado por un efecto de túnel de luz y reflejos de prisma. Decoración interior de Antimo Bar, La Rioja." class="img-fluid mb-2" width="679" height="1019">
                     <h2 class="h5 mt-3" aria-hidden="true">Contactate con nosotros a traves del Insta</h2>
                 </a>
             </article>
             <!--Articulo 2: Carta-->
             <article class="col-12 col-md-6 text-center antimo-card">
-                <a href="Pages/carta.html" class="text-decoration-none text-white" aria-label="Hace click para ver nuestra Carta">
-                    <img src="img/michellin.webp" loading="lazy" decoding="async" alt="Primer plano de una figura de colección del muñeco Michelin (Bibendum) con banda azul, de pie sobre una barra de bar con un efecto de desenfoque radial en túnel. Decoración interior de Antimo Bar, La Rioja." class="img-fluid mb-2">
+                <a href="pages/carta.html" class="text-decoration-none text-white" aria-label="Hace click para ver nuestra Carta">
+                    <img src="img/michellin.webp" loading="lazy" decoding="async" alt="Primer plano de una figura de colección del muñeco Michelin (Bibendum) con banda azul, de pie sobre una barra de bar con un efecto de desenfoque radial en túnel. Decoración interior de Antimo Bar, La Rioja." class="img-fluid mb-2" width="679" height="1019">
                     <h2 class="h5 mt-3" aria-hidden="true">Para ver nuestra carta</h2>
                 </a>
             </article>
             <!--Articulo 3: Ubicación-->
             <article class="col-12 col-md-6 text-center antimo-card">
-                <a href="Pages/ubicacion.html" class="text-decoration-none text-white" aria-label="Ver la ubicacion del Bar en Google Maps">
-                    <img src="img/dorrego.webp" loading="lazy" decoding="async" alt="Cartel de neón amarillo con la dirección 'Dorrego 164' sobre botellas de vodka Absolut, enmarcado por un gran círculo luminoso de color naranja en Antimo Bar, La Rioja." class="img-fluid mb-2">
+                <a href="pages/ubicacion.html" class="text-decoration-none text-white" aria-label="Ver la ubicacion del Bar en Google Maps">
+                    <img src="img/dorrego.webp" loading="lazy" decoding="async" alt="Cartel de neón amarillo con la dirección 'Dorrego 164' sobre botellas de vodka Absolut, enmarcado por un gran círculo luminoso de color naranja en Antimo Bar, La Rioja." class="img-fluid mb-2" width="679" height="453">
                     <h2 class="h5 mt-3" aria-hidden="true">Tenes que venir a visitarnos</h2>
                 </a>
             </article>
             <!--Articulo 4: Ambiente-->
             <article class="col-12 col-md-6 text-center antimo-card">
-                <a href="Pages/ambiente.html" class="text-decoration-none text-white" aria-label="Ver galería de fotos del Bar">
-                    <img src="img/tigre.webp" loading="lazy" decoding="async" alt="Impresionante mural de graffiti psicodélico de un tigre naranja y rojo rugiente con colores UV vibrantes y luz negra, cubriendo una pared interior de Antimo Bar en La Rioja." class="img-fluid mb-2">
+                <a href="pages/ambiente.html" class="text-decoration-none text-white" aria-label="Ver galería de fotos del Bar">
+                    <img src="img/tigre.webp" loading="lazy" decoding="async" alt="Impresionante mural de graffiti psicodélico de un tigre naranja y rojo rugiente con colores UV vibrantes y luz negra, cubriendo una pared interior de Antimo Bar en La Rioja." class="img-fluid mb-2" width="679" height="1019">
                     <h2 class="h5 mt-3" aria-hidden="true">El mejor ambiente esta aca, miralo vos mismo</h2>
                 </a>
             </article>
@@ -56,12 +97,19 @@
     <div class="espinas-bg" aria-hidden="true"></div>
     <footer class="footer-antimo">
         <div class="footer-content">
+            <nav class="site-nav mb-2" aria-label="Navegación principal">
+                <a href="index.html" aria-current="page">Inicio</a>
+                <a href="pages/carta.html">Carta</a>
+                <a href="pages/ambiente.html">Ambiente</a>
+                <a href="pages/contacto.html">Contacto</a>
+                <a href="pages/ubicacion.html">Ubicación</a>
+            </nav>
             <p class="footer-copy">&copy; 2026 Antimo Bar. Todos los derechos reservados.</p>
         </div>
         <div class="footer-logo-corner">
-            <img src="img/LogoAntimo-MasQueUnBar.webp" alt="hecho por un especialista en seo" class="footer-logo">
+            <img src="img/LogoAntimo-MasQueUnBar.webp" alt="Logo de Antimo Bar" class="footer-logo" width="193" height="92">
         </div>
-        
+
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>

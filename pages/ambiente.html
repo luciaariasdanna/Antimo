@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Fotos | El Ambiente de Antimo Bar</title>
+    <meta name="description" content="Mirá las fotos de Antimo Bar. Un ambiente único, decoración exclusiva y la mejor coctelería.">
+    <link rel="canonical" href="https://antimo.vercel.app/pages/ambiente.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Antimo Bar">
+    <meta property="og:locale" content="es_AR">
+    <meta property="og:title" content="Galería de Fotos | El Ambiente de Antimo Bar">
+    <meta property="og:description" content="Mirá las fotos de Antimo Bar. Un ambiente único, decoración exclusiva y la mejor coctelería.">
+    <meta property="og:url" content="https://antimo.vercel.app/pages/ambiente.html">
+    <meta property="og:image" content="https://antimo.vercel.app/img/frente.webp">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Galería de Fotos | El Ambiente de Antimo Bar">
+    <meta name="twitter:description" content="Mirá las fotos de Antimo Bar. Un ambiente único, decoración exclusiva y la mejor coctelería.">
+    <meta name="twitter:image" content="https://antimo.vercel.app/img/frente.webp">
+    <link rel="icon" type="image/webp" href="../img/LogoAntimo.webp">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <style>
+        #carouselExampleFade {
+            max-width: 800px;
+        }
+        /* moved from inline style to avoid inline styles */
+        .content-footer {
+            border-top: 1px solid #333;
+        }
+    </style>
+</head>
+<body class="bg-black text-white">
+    <main class="container mt-5 pt-5" role="main">
+        <h1 class="text-center mb-4">Nuestro Ambiente</h1>
+        
+        <!-- Carrusel de Bootstrap fundido cruzado -->
+        <div id="carouselExampleFade" class="carousel slide carousel-fade mx-auto" data-bs-ride="carousel" role="region" aria-roledescription="carousel" aria-label="Galería de fotos de Antimo Bar">
+            <div class="carousel-inner">
+                <div class="carousel-item active" role="group" aria-roledescription="slide" aria-label="1 de 5">
+                    <img src="../img/dorrego.webp" class="d-block w-100 rounded" alt="Cartel luminoso de Dorrego 164 en la barra" width="679" height="453">
+                </div>
+                <div class="carousel-item" role="group" aria-roledescription="slide" aria-label="2 de 5">
+                    <img src="../img/frente.webp" loading="lazy" decoding="async" class="d-block w-100 rounded" alt="Frente de Antimo" width="6192" height="4128">
+                </div>
+                <div class="carousel-item" role="group" aria-roledescription="slide" aria-label="3 de 5">
+                    <img src="../img/barra.webp" loading="lazy" decoding="async" class="d-block w-100 rounded" alt="Barra de Antimo" width="6192" height="4128">
+                </div>
+                <div class="carousel-item" role="group" aria-roledescription="slide" aria-label="4 de 5">
+                    <img src="../img/cochera.webp" loading="lazy" decoding="async" class="d-block w-100 rounded" alt="Vista desde el costado" width="6192" height="4128">
+                </div>
+                <div class="carousel-item" role="group" aria-roledescription="slide" aria-label="5 de 5">
+                    <img src="../img/dobleantimo.webp" loading="lazy" decoding="async" class="d-block w-100 rounded" alt="Cartel luminoso Antimo" width="4128" height="6192">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev" aria-label="Ver imagen anterior">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next" aria-label="Ver imagen siguiente">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+
+    </main>
+    <footer class="text-center py-4 mt-5 content-footer" role="contentinfo">
+        <nav class="site-nav mb-3" aria-label="Navegación principal">
+            <a href="../index.html">Inicio</a>
+            <a href="carta.html">Carta</a>
+            <a href="ambiente.html" aria-current="page">Ambiente</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="ubicacion.html">Ubicación</a>
+        </nav>
+        <small class="text-muted">&copy; 2026 Antimo Bar. Dorrego 164, La Rioja</small>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>    
+</html>
