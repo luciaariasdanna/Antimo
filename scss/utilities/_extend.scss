@@ -3,8 +3,8 @@
 @use "../base/animaciones" as *;
 
 %header-foot{
-    display: flex;
+    position: relative;
+    width: 100%;
     background-color: $color-fondo;
-    background-position: center;
 }
 

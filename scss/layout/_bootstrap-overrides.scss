@@ -1,0 +1,39 @@
+@use "sass:color";
+@use "../utilities/variables" as *;
+
+.btn-danger {
+    background-color: $color-acento;
+    border-color: $color-acento;
+
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: color.adjust($color-acento, $lightness: -12%);
+        border-color: color.adjust($color-acento, $lightness: -12%);
+    }
+}
+
+.btn-outline-light {
+    color: $color-texto;
+    border-color: $color-texto;
+
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: $color-acento;
+        border-color: $color-acento;
+        color: $color-texto;
+    }
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba($color-acento, 0.6);
+    border-radius: 50%;
+    padding: 1.25rem;
+    background-size: 60%;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: $color-acento;
+}

@@ -1,8 +1,9 @@
 @use "../utilities/variables" as *;
 @use "../utilities/mixin" as *;
+@use "../utilities/extend" as *;
 
 .header-inicio {
-    position: relative;
+    @extend %header-foot;
     height: 80px;
     @include tablet-up {
         height: 100px;

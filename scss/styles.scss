@@ -9,3 +9,7 @@
 @use "layout/header";
 @use "layout/main";
 @use "layout/footer";
+@use "layout/bootstrap-overrides";
+//pages
+@use "pages/ambiente";
+@use "pages/ubicacion";

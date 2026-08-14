@@ -3,9 +3,7 @@
 @use "../utilities/extend" as *;
 
 .footer-antimo {
-    position: relative;
-    width: 100%;
-    background-color: $color-fondo;
+    @extend %header-foot;
     padding: 3rem 1.5rem 2rem 1.5rem;
     min-height: 120px;
 
