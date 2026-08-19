@@ -1,5 +1,21 @@
+@use "../utilities/mixin" as *;
+
 #carouselExampleFade {
     max-width: 800px;
+
+    .carousel-item img {
+        width: 100%;
+        height: 260px;
+        object-fit: cover;
+
+        @include tablet-up {
+            height: 380px;
+        }
+
+        @include desktop-up {
+            height: 450px;
+        }
+    }
 }
 
 .content-footer {
